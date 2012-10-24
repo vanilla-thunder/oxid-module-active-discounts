@@ -4,9 +4,9 @@
 	<tr style="color:white;background: green;font-size:125%;"><td>&nbsp;</td><td><strong>[{oxmultilang ident="vtdad_activediscounts"}]</strong></td><th>[{oxmultilang ident="vtdad_yousave"}]</th></tr>
 	[{foreach from=$aDiscounts item="_oDiscount" name=discounts}]
 		<tr style="background: [{if $smarty.foreach.discounts.iteration is even }]#dfdfdf[{else}]white[{/if}];">
-			<td>&nbsp;[{$smarty.foreach.discounts.iteration}]:&nbsp;</td>
-			<td>[{$_oDiscount->oxdiscount__oxtitle->value}]</td>
-			<th>[{$_oDiscount->getAbsValue($article->getBasePrice())}] [{$currency->sign }]</th>
+			<td>&nbsp;[{$smarty.foreach.discounts.iteration}]:&nbsp;</td> [{* row iterator *}]
+			<td>[{$_oDiscount->oxdiscount__oxtitle->value}]</td> [{* discount title *}]
+			<th>[{$_oDiscount->getAbsValue($article->getBasePrice())}] [{$currency->sign }]</th> [{* absolute amount of saved money *}]
 		</tr>
 	[{/foreach}]
 </table>
