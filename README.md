@@ -1,4 +1,4 @@
-Functions:
+vt Displaying Active Discounts (module for OXID eSales)
 ====================
 displaying active discounts in frontend
 ![screenshot](https://raw.github.com/vanilla-thunder/vt-dad/master/screenshot.jpg)
@@ -13,7 +13,7 @@ Edit vt-dad/out/pl/article-discounts.tpl they way you want, it will be appended 
 Check the vt-dad/out/blocks/details_productmain_price.tpl to see how to implement this module in your custom template without blocks or in article lists.
 
 
-vt Dev Utils (module for OXID eSales)
+Licence agreements
 ====================
  * Copyright (C) 2012  Marat Bedoev
  * license GPL v3
