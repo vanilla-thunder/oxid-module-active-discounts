@@ -30,6 +30,7 @@ Licence agreements
  * 
  * You should have received a copy of the GNU General Public License along with
  * this program; if not, see <http://www.gnu.org/licenses/>
+
 _______________________________________________
 to do:
 1. show the remaining time for discounts with "active to" setting
