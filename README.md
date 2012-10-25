@@ -33,5 +33,5 @@ Licence agreements
 
 _______________________________________________
 to do:
-1. show the remaining time for discounts with "active to" setting
+[*] show the remaining time for discounts with "active to" setting
  
