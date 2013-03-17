@@ -34,4 +34,5 @@ Licence agreements
 _______________________________________________
 to do:
 [*] show the remaining time for discounts with "active to" setting
+<img src="https://ma-be.info/piwik/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" />
  
