@@ -1,11 +1,11 @@
-vt Displaying Active Discounts (module for OXID eSales)
-====================
+# [vt} Displaying Active Discounts
+## module for OXID eShop
+
 displaying active discounts in frontend
 ![screenshot](https://raw.github.com/vanilla-thunder/vt-dad/master/screenshot.jpg)
 
 
-Installation:
-====================
+## Installation:
 Put the vt-dad folder into the modules directory in your shop.
 
 Edit vt-dad/out/pl/article-discounts.tpl they way you want, it will be appended to the "details_productmain_price" bock in the page/details/inc/productmain.tpl
@@ -13,8 +13,8 @@ Edit vt-dad/out/pl/article-discounts.tpl they way you want, it will be appended 
 Check the vt-dad/out/blocks/details_productmain_price.tpl to see how to implement this module in your custom template without blocks or in article lists.
 
 
-Licence agreements
-====================
+## Licence agreements
+
  * Copyright (C) 2012  Marat Bedoev
  * license GPL v3
  * 
@@ -34,5 +34,5 @@ Licence agreements
 _______________________________________________
 to do:
 [*] show the remaining time for discounts with "active to" setting
-<img src="https://ma-be.info/piwik/piwik.php?idsite=2&amp;rec=1&mp;action_name=vt_dad" style="border:0" alt="" />
+<img src="https://ma-be.info/piwik/piwik.php?idsite=2&rec=1&action_name=vt-dad" style="border:0" alt="" />
 
